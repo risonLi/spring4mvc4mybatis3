@@ -1,9 +1,12 @@
 package rison.service;
 
+import com.github.pagehelper.PageHelper;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import rison.dao.SsmTestMapper;
 import rison.model.SsmTest;
+import rison.utils.PageBeanUtil;
+import rison.utils.PagedResult;
 
 import javax.annotation.Resource;
 import java.util.List;
@@ -30,8 +33,20 @@ public class SsmService {
         return ssmList;
     }
 
-//    public List<SsmTest> getAll(HttpServletRequest request) {
-//        List<SsmTest> ssmList = ssmTestMapper.getAll();
-//        return ssmList;
-//    }
+    /**
+     * 分页显示列表
+     * @param pageNumber
+     * @param pageSize
+     * @return
+     */
+    public PagedResult<SsmTest> getAllByPage(Integer pageNumber, Integer pageSize) {
+        //调用分页插件
+        PageHelper.startPage(pageNumber, pageSize);
+
+        //查询数据，获取数据
+        List<SsmTest> ssmList = ssmTestMapper.getAll();
+
+        //通过分页工具类加载分页数据
+        return PageBeanUtil.toPagedResult(ssmList);
+    }
 }

@@ -27,12 +27,14 @@
             </tr>
             <tr>
                 <c:forEach items="${findAllList}" var="s">
-                    <td>${s.id}</td>
-                    <td>${s.name}</td>
-                    <td>${s.pass}</td>
-                    <td>${s.num}</td>
-                    <td>${s.date}</td>
-                    <td>${s.count}</td>
+                    <tr>
+                        <td>${s.id}</td>
+                        <td>${s.name}</td>
+                        <td>${s.pass}</td>
+                        <td>${s.num}</td>
+                        <td>${s.date}</td>
+                        <td>${s.count}</td>
+                    </tr>
                 </c:forEach>
             </tr>
         </table>

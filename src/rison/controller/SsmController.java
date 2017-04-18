@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 import rison.model.SsmTest;
@@ -27,22 +28,22 @@ public class SsmController {
     /**
      * 查询所有
      */
-//    @RequestMapping(value = "getAllOne.do", produces = "application/json;charset=utf-8")
-//    @ResponseBody
-//    public String getAll(){
-//
-//        List<SsmTest> findAllList = ssmService.getAll();
-//
-//        //企业常用方法：json的范式
-//        Gson gson = new Gson();
-//        String json = gson.toJson(findAllList);
-//        return json;
-//
-//    }
+    @RequestMapping(value = "getAllOne.do", produces = "application/json;charset=utf-8")
+    @ResponseBody
+    public String getAll(){
+
+        List<SsmTest> findAllList = ssmService.getAll();
+
+        //企业常用方法：json的范式
+        Gson gson = new Gson();
+        String json = gson.toJson(findAllList);
+        return json;
+
+    }
 
     @ResponseBody
     @RequestMapping(value = "getAllTwo.do", produces = "application/json;charset=utf-8")
-    public ModelAndView getAll(){
+    public ModelAndView getAll(HttpServletRequest request){
 
         System.out.println("执行到这里了吗？");
 
@@ -60,14 +61,25 @@ public class SsmController {
     }
 
     /**
-     * 传统分页
+     * 传统分页方法
+     * @param pageNumber:当前页
+     * @param pageSize:每页条数
+     * @return
+     *
+     * @RequestParam(value = "pageNumber", defaultValue = "1") 指设置默认参数（pageNumber的默认值为1，默认显示第一页）
+     * pageSize同理
      */
-    public ModelAndView getAllByPage(Integer pageNumber, Integer pageSize){
+//    @ResponseBody
+    @RequestMapping(value = "getAllByPage.do", produces = "application/json;charset=utf-8")
+    public ModelAndView getAllByPage(@RequestParam(value = "pageNumber", defaultValue = "1")Integer pageNumber,
+                                     @RequestParam(value = "pageSize", defaultValue = "2")Integer pageSize){
         ModelAndView mv = new ModelAndView();
-        //当前页、每页条数
         //传入数据到分页工具类
-//        PagedResult<SsmTest> pagedResult = ssmService.getAllByPage(pageNumber, pageSize);
+        PagedResult<SsmTest> pageResult = ssmService.getAllByPage(pageNumber, pageSize);
         //数据传递到前台页面展示
+        mv.addObject("pageResult", pageResult);
+        //跳转页面
+        mv.setViewName("listpage");
 
         return mv;
     }
