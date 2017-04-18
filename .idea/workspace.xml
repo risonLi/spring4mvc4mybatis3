@@ -2,61 +2,86 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="463e7d13-ae76-4ffc-b7a1-cfce9e72ae96" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/bootstrap3.3.7/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/bootstrap3.3.7/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/bootstrap3.3.7/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/bootstrap3.3.7/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery-ui-1.12.1/images/ui-icons_444444_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery-ui-1.12.1/images/ui-icons_555555_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery-ui-1.12.1/images/ui-icons_777620_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery-ui-1.12.1/images/ui-icons_777777_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery-ui-1.12.1/images/ui-icons_cc0000_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery-ui-1.12.1/images/ui-icons_ffffff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/bootstrap-paginator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/bootstrap3.3.7/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/bootstrap3.3.7/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/bootstrap3.3.7/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/bootstrap3.3.7/css/bootstrap-theme.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/bootstrap3.3.7/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/bootstrap3.3.7/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/bootstrap3.3.7/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/bootstrap3.3.7/css/bootstrap.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/bootstrap3.3.7/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/bootstrap3.3.7/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/bootstrap3.3.7/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/bootstrap3.3.7/js/npm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/china.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/echarts.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery-1.10.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery-ui-1.12.1/AUTHORS.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery-ui-1.12.1/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery-ui-1.12.1/external/jquery/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery-ui-1.12.1/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery-ui-1.12.1/jquery-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery-ui-1.12.1/jquery-ui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery-ui-1.12.1/jquery-ui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery-ui-1.12.1/jquery-ui.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery-ui-1.12.1/jquery-ui.structure.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery-ui-1.12.1/jquery-ui.structure.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery-ui-1.12.1/jquery-ui.theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery-ui-1.12.1/jquery-ui.theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery-ui-1.12.1/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/kkpager/kkpager_orange.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/listpage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/WEB-INF/classes/rison/controller/SsmController.class" afterPath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/WEB-INF/classes/rison/controller/SsmController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/WEB-INF/classes/rison/service/SsmService.class" afterPath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/WEB-INF/classes/rison/service/SsmService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/rison/controller/SsmController.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/rison/controller/SsmController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/rison/service/SsmService.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/rison/service/SsmService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/js/bootstrap-paginator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/js/bootstrap3.3.7/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/js/bootstrap3.3.7/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/js/bootstrap3.3.7/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/js/bootstrap3.3.7/css/bootstrap-theme.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/js/bootstrap3.3.7/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/js/bootstrap3.3.7/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/js/bootstrap3.3.7/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/js/bootstrap3.3.7/css/bootstrap.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/js/bootstrap3.3.7/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/js/bootstrap3.3.7/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/js/bootstrap3.3.7/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/js/bootstrap3.3.7/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/js/bootstrap3.3.7/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/js/bootstrap3.3.7/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/js/bootstrap3.3.7/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/js/bootstrap3.3.7/js/npm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/js/china.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/js/echarts.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/js/jquery-ui-1.12.1/AUTHORS.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/js/jquery-ui-1.12.1/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/js/jquery-ui-1.12.1/external/jquery/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/js/jquery-ui-1.12.1/images/ui-icons_444444_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/js/jquery-ui-1.12.1/images/ui-icons_555555_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/js/jquery-ui-1.12.1/images/ui-icons_777620_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/js/jquery-ui-1.12.1/images/ui-icons_777777_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/js/jquery-ui-1.12.1/images/ui-icons_cc0000_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/js/jquery-ui-1.12.1/images/ui-icons_ffffff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/js/jquery-ui-1.12.1/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/js/jquery-ui-1.12.1/jquery-ui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/js/jquery-ui-1.12.1/jquery-ui.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/js/jquery-ui-1.12.1/jquery-ui.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/js/jquery-ui-1.12.1/jquery-ui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/js/jquery-ui-1.12.1/jquery-ui.structure.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/js/jquery-ui-1.12.1/jquery-ui.structure.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/js/jquery-ui-1.12.1/jquery-ui.theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/js/jquery-ui-1.12.1/jquery-ui.theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/js/jquery-ui-1.12.1/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/js/kkpager/kkpager_orange.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/bootstrap-paginator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/bootstrap3.3.7/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/bootstrap3.3.7/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/bootstrap3.3.7/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/bootstrap3.3.7/css/bootstrap-theme.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/bootstrap3.3.7/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/bootstrap3.3.7/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/bootstrap3.3.7/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/bootstrap3.3.7/css/bootstrap.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/bootstrap3.3.7/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/bootstrap3.3.7/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/bootstrap3.3.7/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/bootstrap3.3.7/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/bootstrap3.3.7/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/bootstrap3.3.7/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/bootstrap3.3.7/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/bootstrap3.3.7/js/npm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/china.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/echarts.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/jquery-1.10.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/jquery-ui-1.12.1/AUTHORS.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/jquery-ui-1.12.1/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/jquery-ui-1.12.1/external/jquery/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/jquery-ui-1.12.1/images/ui-icons_444444_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/jquery-ui-1.12.1/images/ui-icons_555555_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/jquery-ui-1.12.1/images/ui-icons_777620_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/jquery-ui-1.12.1/images/ui-icons_777777_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/jquery-ui-1.12.1/images/ui-icons_cc0000_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/jquery-ui-1.12.1/images/ui-icons_ffffff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/jquery-ui-1.12.1/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/jquery-ui-1.12.1/jquery-ui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/jquery-ui-1.12.1/jquery-ui.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/jquery-ui-1.12.1/jquery-ui.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/jquery-ui-1.12.1/jquery-ui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/jquery-ui-1.12.1/jquery-ui.structure.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/jquery-ui-1.12.1/jquery-ui.structure.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/jquery-ui-1.12.1/jquery-ui.theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/jquery-ui-1.12.1/jquery-ui.theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/jquery-ui-1.12.1/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/kkpager/kkpager_orange.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/WEB-INF/classes/config/log4j.properties" afterPath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/WEB-INF/classes/config/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/WEB-INF/jspviews/list.jsp" afterPath="$PROJECT_DIR$/out/artifacts/spring4mvc4mybatis3_war_exploded/WEB-INF/jspviews/list.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/rison/controller/SsmController.java" afterPath="$PROJECT_DIR$/src/rison/controller/SsmController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/rison/service/SsmService.java" afterPath="$PROJECT_DIR$/src/rison/service/SsmService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jspviews/list.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jspviews/list.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,8 +100,8 @@
       <file leaf-file-name="listpage.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/jspviews/listpage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+            <state relative-caret-position="228">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -214,8 +239,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="656" />
-    <option name="y" value="63" />
+    <option name="x" value="564" />
+    <option name="y" value="58" />
     <option name="width" value="1255" />
     <option name="height" value="1042" />
   </component>
@@ -340,28 +365,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring4mvc4mybatis3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring4mvc4mybatis3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kkpager" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1082,12 +1085,12 @@
       <workItem from="1492389163884" duration="98000" />
       <workItem from="1492389266442" duration="1405000" />
       <workItem from="1492390689335" duration="11988000" />
-      <workItem from="1492505711521" duration="4560000" />
+      <workItem from="1492505711521" duration="5203000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50139000" />
+    <option name="totallyTimeSpent" value="50782000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1099,7 +1102,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="656" y="63" width="1255" height="1042" extended-state="0" />
+    <frame x="564" y="58" width="1255" height="1042" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1152,14 +1155,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="29" lean-forward="false" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/config/spring-mvc.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
@@ -1523,16 +1518,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-931">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/china.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/jspviews/listpage.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        <state relative-caret-position="228">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
