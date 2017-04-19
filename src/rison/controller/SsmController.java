@@ -100,4 +100,53 @@ public class SsmController {
             return "no";
         }
     }
+
+    /**
+     * 删除
+      * @return
+     */
+    @ResponseBody
+    @RequestMapping(value = "del.do", produces = "application/json;charset=utf-8")
+    public String del(String id){
+        int i = ssmService.del(id);
+        if (i > 0){
+            return "yes";
+        }else {
+            return "no";
+        }
+    }
+
+    /**
+     * 更新操作
+     * 回显示
+     * @param id
+     * @return
+     */
+    @ResponseBody
+    @RequestMapping(value = "toUpdate.do", produces = "application/json;charset=utf-8")
+    public ModelAndView toUpdate(String id){
+        ModelAndView modelAndView = new ModelAndView();
+
+        SsmTest ssmTest = ssmService.toUpdateByid(id);
+        modelAndView.addObject("ssms", ssmTest);
+        modelAndView.setViewName("toupdate");
+
+        return modelAndView;
+    }
+
+    /**
+     * 更新操作
+     * @param ssmTest
+     * @return
+     */
+    @ResponseBody
+    @RequestMapping(value = "doUpdate.do", produces = "application/json;charset=utf-8")
+    public String doUpdate(SsmTest ssmTest){
+        int i = ssmService.doUpdateByid(ssmTest);
+        if (i > 0){
+            return "yes";
+        }else {
+            return "no";
+        }
+    }
 }

@@ -28,6 +28,32 @@
         }
     </script>
 
+    <script type="text/javascript">
+        function del(id){
+//            ajax的库来提交form表单
+            if(!confirm("是否删除？")){
+                window.event.returnValue = false;
+            }else {
+                window.event.returnValue = true;
+                $.ajax({
+                    type:"post",
+                    async:true,
+                    url:"del.do",
+                    data:{id:id},
+                    dataType:"text",
+                    success:function(res){
+                        if (res == "yes"){
+                            alert("删除成功")
+                            location.href="getAllByPage.do"
+                        }else {
+                            alert("涮出失败")
+                        }
+                    }
+                })
+            }
+        }
+    </script>
+
 </head>
 <body onload="load()">
 
@@ -45,6 +71,7 @@
                 <th>数字</th>
                 <th>时间</th>
                 <th>次数</th>
+                <th>操作</th>
             </tr>
             <tr>
                 <c:forEach items="${pageResult.dataList}" var="s">
@@ -55,6 +82,10 @@
                         <td>${s.num}</td>
                         <td>${s.date}</td>
                         <td>${s.count}</td>
+                        <td>
+                            <button onclick="del(${s.id})">删除 |</button>
+                            <a href="toUpdate.do?id=${s.id}">更新</a>
+                        </td>
                     </tr>
                 </c:forEach>
             </tr>

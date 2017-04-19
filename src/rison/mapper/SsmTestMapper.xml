@@ -106,4 +106,14 @@
   <select id="getAll" resultMap="BaseResultMap">
     SELECT * FROM ssmtest
   </select>
+
+  <update id="doUpDateById" parameterType="rison.model.SsmTest" >
+    update ssmtest
+    set name = #{name,jdbcType=VARCHAR},
+    pass = #{pass,jdbcType=VARCHAR},
+    num = #{num,jdbcType=INTEGER},
+    date = #{date,jdbcType=VARCHAR},
+    count = #{count,jdbcType=INTEGER}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
 </mapper>

@@ -60,4 +60,42 @@ public class SsmService {
 
         return i;
     }
+
+    /**
+     * 删除
+     * @param id
+     * @return
+     */
+    public int del(String id) {
+        int i = 0;
+        if (id != null && id != ""){
+            Integer sid = Integer.valueOf(id);
+            i = ssmTestMapper.deleteByPrimaryKey(sid);
+
+        }
+        return i;
+    }
+
+    /**
+     * 更新操作
+     * 回显示
+     * @param id
+     * @return
+     */
+    public SsmTest toUpdateByid(String id) {
+        SsmTest ssmTest = new SsmTest();
+        if (id != null && id != ""){
+            Integer sid = Integer.valueOf(id);
+            ssmTest = ssmTestMapper.selectByPrimaryKey(sid);
+        }
+        return ssmTest;
+    }
+
+    public int doUpdateByid(SsmTest ssmTest) {
+
+//        int i = ssmTestMapper.doUpDateById(ssmTest);
+        int i = ssmTestMapper.updateByPrimaryKey(ssmTest);
+
+        return i;
+    }
 }

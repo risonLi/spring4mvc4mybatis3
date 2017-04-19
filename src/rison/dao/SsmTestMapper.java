@@ -22,4 +22,11 @@ public interface SsmTestMapper {
      * @return
      */
     List<SsmTest> getAll();
+
+    /**
+     * 更新
+     * @return
+     * @param ssmTest
+     */
+    int doUpDateById(SsmTest ssmTest);
 }

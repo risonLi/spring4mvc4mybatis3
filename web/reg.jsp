@@ -55,6 +55,7 @@
                 data:$('#formid').serialize(),
                 dataType:"text",
                 success:function(res){
+                    alert(res);
                     if (res == "yes"){
                         location.href="getAllByPage.do"
                     }
