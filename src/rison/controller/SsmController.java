@@ -69,7 +69,7 @@ public class SsmController {
      * @RequestParam(value = "pageNumber", defaultValue = "1") 指设置默认参数（pageNumber的默认值为1，默认显示第一页）
      * pageSize同理
      */
-//    @ResponseBody
+    @ResponseBody
     @RequestMapping(value = "getAllByPage.do", produces = "application/json;charset=utf-8")
     public ModelAndView getAllByPage(@RequestParam(value = "pageNumber", defaultValue = "1")Integer pageNumber,
                                      @RequestParam(value = "pageSize", defaultValue = "2")Integer pageSize){
@@ -84,4 +84,20 @@ public class SsmController {
         return mv;
     }
 
+
+    /**
+     * 插入数据操作
+     * 使用ajax，所以返回String
+     *
+     */
+    @ResponseBody
+    @RequestMapping(value = "insert.do", produces = "application/json;charset=utf-8")
+    public String insert(SsmTest ssmTest){
+        int i = ssmService.insert(ssmTest);
+        if (i > 0){
+            return "yes";
+        }else {
+            return "no";
+        }
+    }
 }

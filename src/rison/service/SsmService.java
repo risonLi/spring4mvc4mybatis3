@@ -49,4 +49,15 @@ public class SsmService {
         //通过分页工具类加载分页数据
         return PageBeanUtil.toPagedResult(ssmList);
     }
+
+    /**
+     * 插入操作
+     * @param ssmTest
+     * @return
+     */
+    public int insert(SsmTest ssmTest) {
+        int i = ssmTestMapper.insert(ssmTest);
+
+        return i;
+    }
 }
