@@ -8,11 +8,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
+import rison.model.Pie;
 import rison.model.SsmTest;
 import rison.service.SsmService;
 import rison.utils.PagedResult;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -148,5 +150,26 @@ public class SsmController {
         }else {
             return "no";
         }
+    }
+
+    /**
+     * 玫瑰图数据提供
+     */
+    @ResponseBody
+    @RequestMapping(value = "getAllByPie.do", produces = "application/json;charset=utf-8")
+    public String getAllByPie(){
+        List<SsmTest> ssmTests = ssmService.getAll();
+        List<Pie> pieList = new ArrayList<Pie>();
+
+        for (SsmTest ssmTest: ssmTests){
+            Pie pie = new Pie();
+            pie.setValue(ssmTest.getNum().toString());
+            pie.setName(ssmTest.getName());
+            pieList.add(pie);
+        }
+        Gson gson = new Gson();
+        String json = gson.toJson(pieList);
+
+        return json;
     }
 }
