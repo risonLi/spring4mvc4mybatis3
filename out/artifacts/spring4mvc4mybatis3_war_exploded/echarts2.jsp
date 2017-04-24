@@ -118,9 +118,6 @@
         mychart.showLoading();
         //对数据进行重写，变为动态数据
         var arraydata = [];
-//        var snum = [];
-//        var scount = [];
-//        var sname = [];
         //利用ajax从后台动态的获取数据
         $.ajax({
             type:"post",
@@ -132,9 +129,6 @@
                 if (result != null && result.length > 0){
                     for (var i=0; i<result.length; i++){
                         arraydata.push(result[i].name);
-//                        snum.push(result[i].num);
-//                        scount.push(result[i].count);
-//                        sname.push(result[i].name);
                     }
                     //隐藏加载动画
                     mychart.hideLoading();

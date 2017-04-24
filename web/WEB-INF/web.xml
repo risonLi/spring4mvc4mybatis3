@@ -21,7 +21,7 @@
         <servlet-name>springMVC</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
         <init-param>
-        <!--也可以在这里初始化，同步逐2-->
+            <!--这里必须初始化-->
             <param-name>contextConfigLocation</param-name>
             <param-value>classpath:config/spring-mvc.xml</param-value>
         </init-param>
